@@ -20,7 +20,7 @@ prontos para consumo por ferramentas de BI como Power BI.
 - Databricks Lakehouse
 - Delta Lake
 - Unity Catalog / External Catalog
-- Delta Live Tables (versão alternativa do pipeline)
+- 
 
 **Camadas**
 - Bronze → dados brutos
@@ -104,18 +104,11 @@ A camada Gold entrega dados prontos para análise, modelados em
 
 Este projeto apresenta **duas abordagens válidas** de engenharia de dados:
 
-### 1️⃣ Pipeline com SQL / PySpark
+### Pipeline com SQL / PySpark
 - Controle total do fluxo
 - Ideal para cenários customizados
 - Fácil depuração
 
-### 2️⃣ Delta Live Tables (DLT)
-- Pipeline declarativo
-- Controle automático de dependências
-- Visualização gráfica do fluxo
-- Ideal para ambientes produtivos modernos
-
----
 
 ## 📈 Boas Práticas Aplicadas
 - Arquitetura Medallion
@@ -134,12 +127,5 @@ Este projeto foi desenvolvido com foco em:
 - Consolidação de conceitos modernos de Lakehouse
 - Preparação para pipelines produtivos em Databricks, Azure e AWS
 
----
 
-## 🚀 Próximos Passos (Evoluções)
-- Ingestão incremental completa
-- Validações de qualidade automatizadas
-- Materialized Views
-- Exposição via Power BI
-- Orquestração e versionamento de pipelines
 
